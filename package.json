@@ -1,0 +1,23 @@
+{
+  "name": "wikibook-intro",
+  "version": "1.0.0",
+  "description": "60-second motion-graphics brand intro for Wikibook (위키북스) publisher",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render WikibookIntro out/wikibook-intro.mp4 --concurrency=2",
+    "still": "remotion still WikibookIntro out/poster.png --frame=300"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-kr": "5.0.18",
+    "@remotion/cli": "4.0.479",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.479"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.5.4"
+  }
+}
