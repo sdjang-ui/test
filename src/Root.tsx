@@ -8,6 +8,8 @@ import { DabanIntro } from "./daban/Video";
 import { DURATION as DABAN_DURATION } from "./daban/theme";
 import { RuachIntro } from "./ruach/Video";
 import { DURATION as RUACH_DURATION } from "./ruach/theme";
+import { MytomoIntro } from "./mytomo/Video";
+import { DURATION as MYTOMO_DURATION } from "./mytomo/theme";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -40,6 +42,14 @@ export const RemotionRoot: React.FC = () => {
         id="RuachIntro"
         component={RuachIntro}
         durationInFrames={RUACH_DURATION}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="MytomoIntro"
+        component={MytomoIntro}
+        durationInFrames={MYTOMO_DURATION}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
