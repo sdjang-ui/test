@@ -1,18 +1,24 @@
-# 위키북스 60초 브랜드 인트로 (Remotion)
+# 출판사 60초 브랜드 인트로 (Remotion)
 
-위키북스(wikibook.co.kr)를 처음 접하는 독자를 위한 **60초 모션 그래픽 브랜드 영상**입니다.
-Remotion(React 기반) 으로 제작했습니다.
+출판사를 처음 접하는 독자를 위한 **60초 모션 그래픽 브랜드 영상** 모음입니다.
+Remotion(React 기반)으로 제작했습니다. 두 개의 컴포지션이 들어 있습니다.
 
-| 항목 | 값 |
-|------|-----|
-| 길이 | 60.0초 (1,800 프레임) |
-| 해상도 | 1920×1080 (30fps) |
-| 결과물 | `out/wikibook-intro.mp4` |
-| 장면 수 | 7 |
+| 컴포지션 ID | 대상 | 결과물 | 장면 | 비고 |
+|-------------|------|--------|------|------|
+| `WikibookIntro` | 위키북스 (wikibook.co.kr) | `out/wikibook-intro.mp4` | 7 | 풍부한 검증 자료 기반 |
+| `ShiftIntro` | 도서출판 시프트 (shiftbook) | `out/shift-intro.mp4` | 8 | 사이트 접근 차단 → 검증된 최소 정보 + 자막 나레이션 |
+
+모두 60.0초 · 1920×1080 · 30fps.
 
 ## 문서
 
-- **[SCRIPT.md](./SCRIPT.md)** — 핵심 메시지 · 내레이션 대본 · 장면 구성 · 자산 활용 고지
+**위키북스**
+- **[SCRIPT.md](./SCRIPT.md)** — 메시지 · 내레이션 · 장면 · 자산 고지
+- **[SOURCES.md](./SOURCES.md)** — 출처
+
+**도서출판 시프트**
+- **[SHIFT_SCRIPT.md](./SHIFT_SCRIPT.md)** — 메시지 · 자막 나레이션 · 장면 · 제작 전제
+- **[SHIFT_SOURCES.md](./SHIFT_SOURCES.md)** — 출처 및 제약
 - **[SOURCES.md](./SOURCES.md)** — 사용한 모든 사실의 출처
 
 ## 재생/재제작
