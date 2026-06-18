@@ -8,6 +8,7 @@ Remotion(React 기반)으로 제작했습니다. 두 개의 컴포지션이 들�
 | `WikibookIntro` | 위키북스 (wikibook.co.kr) | `out/wikibook-intro.mp4` | 7 | 풍부한 검증 자료 기반 |
 | `ShiftIntro` | 도서출판 시프트 (shiftbook) | `out/shift-intro.mp4` | 8 | 사이트 접근 차단 → 검증된 최소 정보 + 자막 나레이션 |
 | `DabanIntro` | 다반 (davanbook) | `out/daban-intro.mp4` | 8 | 사이트 접근 차단 → 검증된 최소 정보(에세이·예술·디페랑스) + 자막 나레이션 |
+| `RuachIntro` | 루아크 (ruachbook) | `out/ruach-intro.mp4` | 11 | 사이트 차단 → 검증 도서 『경성의 건축가들』(2017) 기반 + 자막 나레이션 |
 
 모두 60.0초 · 1920×1080 · 30fps.
 
@@ -24,6 +25,10 @@ Remotion(React 기반)으로 제작했습니다. 두 개의 컴포지션이 들�
 **다반 (Daban)**
 - **[DABAN_SCRIPT.md](./DABAN_SCRIPT.md)** — 메시지 · 자막 나레이션 · 장면 · 제작 전제
 - **[DABAN_SOURCES.md](./DABAN_SOURCES.md)** — 출처 및 제약
+
+**루아크 (Ruach)**
+- **[RUACH_SCRIPT.md](./RUACH_SCRIPT.md)** — 메시지 · 자막 나레이션 · 장면 · 제작 전제
+- **[RUACH_SOURCES.md](./RUACH_SOURCES.md)** — 출처 및 제약
 - **[SOURCES.md](./SOURCES.md)** — 사용한 모든 사실의 출처
 
 ## 재생/재제작

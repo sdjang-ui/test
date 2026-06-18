@@ -6,6 +6,8 @@ import { ShiftIntro } from "./shift/Video";
 import { DURATION as SHIFT_DURATION } from "./shift/theme";
 import { DabanIntro } from "./daban/Video";
 import { DURATION as DABAN_DURATION } from "./daban/theme";
+import { RuachIntro } from "./ruach/Video";
+import { DURATION as RUACH_DURATION } from "./ruach/theme";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -30,6 +32,14 @@ export const RemotionRoot: React.FC = () => {
         id="DabanIntro"
         component={DabanIntro}
         durationInFrames={DABAN_DURATION}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="RuachIntro"
+        component={RuachIntro}
+        durationInFrames={RUACH_DURATION}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
