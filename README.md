@@ -10,6 +10,7 @@ Remotion(React 기반)으로 제작했습니다. 두 개의 컴포지션이 들�
 | `DabanIntro` | 다반 (davanbook) | `out/daban-intro.mp4` | 8 | 사이트 접근 차단 → 검증된 최소 정보(에세이·예술·디페랑스) + 자막 나레이션 |
 | `RuachIntro` | 루아크 (ruachbook) | `out/ruach-intro.mp4` | 11 | 사이트 차단 → 검증 도서 『경성의 건축가들』(2017) 기반 + 자막 나레이션 |
 | `MytomoIntro` | 내친구의서재 (mytomobook) | `out/mytomo-intro.mp4` | 11 | 사이트 차단 → 추리·미스터리 전문, 검증 도서 2종 기반 + 자막 나레이션 |
+| `JungwonIntro` | 공중정원 (북 커버 디자이너) | `out/jungwon-intro.mp4` | 11 | 포트폴리오 차단·표지 미확인 → 커버 디자인 '작업(craft)' 중심 + 목업(자막 나레이션) |
 
 모두 60.0초 · 1920×1080 · 30fps.
 
@@ -34,6 +35,10 @@ Remotion(React 기반)으로 제작했습니다. 두 개의 컴포지션이 들�
 **내친구의서재 (mytomobook)**
 - **[MYTOMO_SCRIPT.md](./MYTOMO_SCRIPT.md)** — 메시지 · 자막 나레이션 · 장면 · 제작 전제
 - **[MYTOMO_SOURCES.md](./MYTOMO_SOURCES.md)** — 출처 및 제약
+
+**공중정원 (북 커버 디자이너)**
+- **[JUNGWON_SCRIPT.md](./JUNGWON_SCRIPT.md)** — 메시지 · 자막 나레이션 · 장면 · 제작 전제
+- **[JUNGWON_SOURCES.md](./JUNGWON_SOURCES.md)** — 출처 및 제약 (표지 미확인 고지)
 - **[SOURCES.md](./SOURCES.md)** — 사용한 모든 사실의 출처
 
 ## 재생/재제작

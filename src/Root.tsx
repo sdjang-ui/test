@@ -10,6 +10,8 @@ import { RuachIntro } from "./ruach/Video";
 import { DURATION as RUACH_DURATION } from "./ruach/theme";
 import { MytomoIntro } from "./mytomo/Video";
 import { DURATION as MYTOMO_DURATION } from "./mytomo/theme";
+import { JungwonIntro } from "./jungwon/Video";
+import { DURATION as JUNGWON_DURATION } from "./jungwon/theme";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -50,6 +52,14 @@ export const RemotionRoot: React.FC = () => {
         id="MytomoIntro"
         component={MytomoIntro}
         durationInFrames={MYTOMO_DURATION}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
+      <Composition
+        id="JungwonIntro"
+        component={JungwonIntro}
+        durationInFrames={JUNGWON_DURATION}
         fps={FPS}
         width={WIDTH}
         height={HEIGHT}
